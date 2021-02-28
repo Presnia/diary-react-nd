@@ -56,3 +56,15 @@
     line-height: 14px;
     color: #1E2022;
 }
+
+.mood-circle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 14px;
+    top: 14px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    z-index: 3;
+}

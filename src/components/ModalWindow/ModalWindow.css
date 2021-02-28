@@ -1,0 +1,83 @@
+.modal-window_container {
+    /*display: none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72vw;
+    background: rgba(0, 0, 0, 0.64);
+    z-index: 5;
+}
+
+.modal-window {
+    position: relative;
+    margin: 60px auto auto;
+    max-width: 1360px;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.exit-cross_modal {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    cursor: pointer;
+}
+
+.header-modal {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin: 44px 40px 40px;
+}
+
+.mood-emoji_modal {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+    font-size: 48px;
+    margin-top: -15px;
+}
+
+.modal-window_body{
+    display: flex;
+    margin: 0 40px;
+}
+
+.note-image {
+    width: 500px;
+    height: 748px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+}
+
+.description-title_modal {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1E2022;
+}
+
+.description-text_modal {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1E2022;
+}
+
+.description-date_modal {
+    margin-left: auto;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1E2022;
+}
