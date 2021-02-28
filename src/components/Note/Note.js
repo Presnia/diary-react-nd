@@ -1,10 +1,9 @@
 import './Note.css';
 import Emoji from "a11y-react-emoji";
 
-const Note = () => {
+const Note = ({style}) => {
   return (
-    <div className="note" style={{
-      backgroundImage: `url("https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?cs=srgb&dl=pexels-pok-rie-132037.jpg&fm=jpg")`}}>
+    <div className="note" style={style}>
       <section className="mood-circle_box">
         <span className="mood-circle">
           <span className="mood-emoji">
