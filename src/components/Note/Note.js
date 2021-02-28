@@ -1,4 +1,5 @@
 import './Note.css';
+import Emoji from "a11y-react-emoji";
 
 const Note = () => {
   return (
@@ -7,7 +8,7 @@ const Note = () => {
       <section className="mood-circle_box">
         <span className="mood-circle">
           <span className="mood-emoji">
-
+            <Emoji symbol="🤔" label="thinking"/>
           </span>
         </span>
       </section>
