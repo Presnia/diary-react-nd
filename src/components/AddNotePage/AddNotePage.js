@@ -1,6 +1,7 @@
 import './AddNotePage.css';
 import searchBtn from '../../assets/img/search-found.svg';
 import FilterMoodBox from "../FilterMoodBox/FilterMoodBox";
+import displayPlus from "../../assets/img/union.png";
 
 const AddNoteField = () => {
   return (
@@ -26,6 +27,11 @@ const AddNoteField = () => {
           <div className="description-text_field">
             <textarea className="description-text" placeholder="Описание" />
           </div>
+
+          <button className="create-button">
+            <img className="create-btn_img" src={displayPlus} alt="Создать"/>
+            <span className="create-btn_text">Создать</span>
+          </button>
         </section>
 
         <div className="gallery">

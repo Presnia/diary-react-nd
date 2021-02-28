@@ -4,11 +4,19 @@
 
 }
 
+.filter {
+    display: none;
+}
+
 .header-note_field {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 16px;
+}
+
+.left-field_info {
+    position: relative;
 }
 
 .input-name {
@@ -73,11 +81,15 @@
     border: none;
 }
 
+.description-text_field {
+   max-height: 478px;
+}
+
 .description-text {
     margin: 0;
     padding: 20px 16px;
     width: 639px;
-    height: 478px;
+    height: 438px;
     border: none;
     border-radius: 12px;
     font-family: Roboto, sans-serif;
@@ -96,9 +108,35 @@ textarea {
     resize: none;
 }
 
+.create-button {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #61B15A 0%, #ADCE74 100%);
+    font-family: IBM Plex Sans,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.create-btn_img {
+    padding-left: 34px;
+    padding-right: 15px;
+}
+
 .gallery {
     display: flex;
     margin-left: 20px;
+    margin-top: 15px;
     border-radius: 12px;
 }
 

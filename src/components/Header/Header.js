@@ -11,7 +11,7 @@ const Header = () => {
         <img className="logo-img" src={logo} alt="logo"/>
         <h1 className="logo-name">Дневник</h1>
       </div>
-      <FilterBox/>
+      <FilterBox />
       <div className="header-buttons">
         <button className="feed-button">
           <img className="feed-btn_img" src={displayGrid} alt="Список"/>
