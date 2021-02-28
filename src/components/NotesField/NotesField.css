@@ -1,4 +1,5 @@
 .notes {
-    display: flex;
+    display: none;
+    /*display: flex;*/
     justify-content: space-between;
 }
