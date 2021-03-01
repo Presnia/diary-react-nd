@@ -3,7 +3,7 @@ import searchBtn from '../../assets/img/search-found.svg';
 import FilterMoodBox from "../FilterMoodBox/FilterMoodBox";
 import displayPlus from "../../assets/img/union.png";
 
-const AddNoteField = () => {
+const AddNotePage = () => {
   return (
     <div className="add-note_field">
 
@@ -61,4 +61,4 @@ const AddNoteField = () => {
   )
 }
 
-export default AddNoteField;
+export default AddNotePage;
