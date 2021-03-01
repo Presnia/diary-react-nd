@@ -23,8 +23,6 @@ class Diary extends React.Component {
       .then(data => console.log(data))
   }
 
-
-
   render () {
     return (
       <div className="App">

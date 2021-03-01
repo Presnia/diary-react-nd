@@ -2,3 +2,57 @@
     margin: auto;
     max-width: 1360px;
 }
+
+@media (max-width: 1366px) {
+    .App {
+       max-width: 1206px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .App {
+        max-width: 1100px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .App {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .App {
+        max-width: 864px;
+    }
+}
+
+@media (max-width: 834px) {
+    .App {
+        max-width: 734px;
+    }
+}
+
+@media (max-width: 768px) {
+    .App {
+        max-width: 688px;
+    }
+}
+
+@media (max-width: 414px) {
+    .App {
+        max-width: 354px;
+    }
+}
+
+@media (max-width: 375px) {
+    .App {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    .App {
+        max-width: 280px;
+    }
+}

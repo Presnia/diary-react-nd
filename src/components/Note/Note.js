@@ -12,11 +12,11 @@ const Note = ({style}) => {
         </span>
       </section>
       <div className="description-container">
-        <div className="description-wrapper">
+        <div className="description-header">
           <span className="description-title">The lake of my dream</span>
           <span className="description-date">Mon 1 March</span>
         </div>
-        <p className="description-text">Today I felt something new...</p>
+        <p className="description-text_note">Today I felt something new...</p>
       </div>
     </div>
   )
